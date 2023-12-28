@@ -1,0 +1,6 @@
+TODO list:
+
+[-] Handle SIGINT
+[-] Select network interface (SO_BINDTODEVICE)
+[-] Select sniffing protocol (now ETH_P_ALL. want ETH_P_ARP | ETH_P_IP)
+[-] Parse field protocol name in Ethernet header (0x0800 -> IP, ...)
